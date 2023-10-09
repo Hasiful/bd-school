@@ -1,0 +1,238 @@
+
+
+@media(min-width: 540px){
+    .our_division_wrapper,
+    .whyBest_item_wrapper{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .footer_nav {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .cousre_module_inner {
+        justify-content: flex-start;
+    }
+
+    .checkout_payment_wrapper {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+}
+
+@media(min-width: 768px){
+    .banner_item_wrapper{
+        padding: 100px 0px;
+    }
+
+    .banner_heading{
+        font-size: 52px;
+        line-height: 70px;
+        margin-bottom: 30px;
+    }
+
+    .section_padding{
+        padding: 50px 0px;
+    }
+
+    .our_division_wrapper,
+    .whyBest_item_wrapper{
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .section_title_heading{
+        font-size: 30px;
+        line-height: 42px;
+     }
+
+     .cousre_item_wrapper{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .footer_nav {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .sheba_item_wrapper{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .student_reviewsItem_wrapper {
+        flex-direction: row;
+    }
+
+    .contact_details_wrapper {
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 80px;
+    }
+
+    .contact_form_inner {
+        flex-flow: row;
+    }
+
+    .checkout_wrapper{
+        flex-direction: row;
+    }
+
+    .checkout_content{
+        width: 56%;
+    }
+
+    .login_page_wrapper{
+        align-items: flex-start;
+        flex-direction: row;
+    }
+
+    .login_page_right{
+        max-width: 477px;
+        width: 100%;
+    }
+
+    .login_page_content{
+        max-width: 592px;
+        width: 100%;
+    }
+
+    .log_page_title {
+        font-size: 36px;
+        line-height: 48px;
+        margin-bottom: 20px;
+    }
+    
+    .otp_form_wrapper,
+    .login_form_wrapper,
+    .login_submit_btn{
+        max-width: 540px;
+    }
+    
+}
+
+
+@media(min-width: 1024px){
+    .header_nav{
+        display: block !important;
+    }
+
+    .mobile_toggle{
+        display: none;
+    }
+    .header_button{
+        display: block;
+    }
+
+    .banner_image {
+        position: absolute;
+        z-index: 1;
+        right: 0px;
+        top: 50%;
+        transform: translateY(-50%);
+        width: unset;
+    }
+
+    .banner_image img{
+        max-width: 100%;
+    }
+
+    .banner_item_wrapper{
+        flex-direction: row;
+    }
+
+    .banner_item_wrapper{
+        padding: 150px 0px;
+    }
+
+    .section_padding{
+        padding: 60px 0px;
+    }
+
+    .our_division_wrapper,
+    .whyBest_item_wrapper{
+        grid-template-columns: repeat(6, 1fr);
+    }
+
+    .section_title_heading{
+        font-size: 40px;
+        line-height: 52px;
+     }
+
+     .cousre_item_wrapper{
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .footer_nav {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .cousre_details_wrapper {
+       flex-direction: row;
+    }
+
+    .cousre_details_content{
+        width: 45%;
+    }
+
+    .cousre_details_thumbnail{
+        width: 50%;
+    }
+
+    .faq_section_wrapper{
+        flex-direction: row;
+    }
+
+    .faq_left_content {
+      text-align: left;
+    }
+
+    .faq_content{
+        width: 100%;
+    }
+
+    .faq_left_image {
+        margin: 0px 0px 20px;
+    }
+
+    .faq_left {
+        width: 45%;
+    }
+
+    .faq_content{
+        width: 48%;
+    }
+
+    .service_section_wrapper{
+        flex-direction: row;
+    }
+
+    .service_content,
+    .service_thumbnail{
+        width: 48%;
+    }
+
+    .contact_details_wrapper {
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 80px;
+    }
+
+    .log_page_title {
+        font-size: 40px;
+        line-height: 58px;
+        margin-bottom: 20px;
+    }
+
+    
+}
+
+
+@media(min-width: 1200px){
+    .header_wrapper {
+        gap: 80px;
+    }
+    .header_nav{
+        flex: 1;
+        display: none;
+    }
+
+    .sheba_item_wrapper{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
